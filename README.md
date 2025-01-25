@@ -16,23 +16,27 @@ The sampling frequency of the ECG signals is 360 Hz.
 Annotations and Symbols: 
 The annotations in the MIT-BIH Arrhythmia Database indicate various types of cardiac events, including normal beats and different types of arrhythmias. The symbols used in annotations and their meanings include:
 
-N: Normal beat
-L: Left bundle branch block beat
-R: Right bundle branch block beat
-A: Atrial premature beat
-V: Premature ventricular contraction
-S: Premature or ectopic supraventricular beat
-T: T-wave change
-/: Non-conducted P-wave (blocked APC), Paced beat
-~: Signal quality change
-|: Isolated QRS-like artifact
-s: ST change
-f: Fusion of ventricular and normal beat
-F: Fusion of paced and normal beat
-J: Nodal (junctional) escape beat
-E: Atrial escape beat
-Q: Unclassifiable beat
-?: Beat not classified during learning
+N: Normal beat, 
+L: Left bundle branch block beat,
+R: Right bundle branch block beat,
+A: Atrial premature beat,
+V: Premature ventricular contraction,
+S: Premature or ectopic supraventricular beat,
+T: T-wave change,
+/: Non-conducted P-wave (blocked APC), Paced beat,
+~: Signal quality change,
+|: Isolated QRS-like artifact,
+s: ST change,
+f: Fusion of ventricular and normal beat,
+F: Fusion of paced and normal beat,
+J: Nodal (junctional) escape beat,
+E: Atrial escape beat,
+Q: Unclassifiable beat,
+?: Beat not classified during learning.
 
 
 I created a  function called record_reader that receives a path to a folder that contains a list of ECG records (hea files), and returns a list of dictionaries containing the record files and the corresponding WFDB Record and WFDB Annotation objects.
+ Some visualisations from the dataset are 
+![Ex1](1.png)
+
+![Ex2](3.png)
