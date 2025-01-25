@@ -37,6 +37,6 @@ Q: Unclassifiable beat,
 
 I created a  function called record_reader that receives a path to a folder that contains a list of ECG records (hea files), and returns a list of dictionaries containing the record files and the corresponding WFDB Record and WFDB Annotation objects.
  Some visualisations from the dataset are 
-![Ex1](1.png)
+![Ex1](1..png)
 
 ![Ex2](3.png)
